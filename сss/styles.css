@@ -631,6 +631,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding-top: 0;
+  padding-bottom: 60px;
 }
 /* Лого */
 .logo-contacts {
@@ -646,26 +647,40 @@ body {
 
 /* Контакты */
 
-.contacts-text {
+.contacts {
   margin-top: 0;
-  margin-bottom: 60px;
 }
 
-.contacts-text .adress {
+.contacts .adress {
   color: var(--primary-white-color);
 
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+
+  margin-top: 0;
+  margin-bottom: 9px;
 }
 
-.contacts-text .mail,
-.contacts-text .phone {
+.contacts .mail {
   color: var(--contacts-color);
 
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+.contacts .phone {
+  color: var(--contacts-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Социальные сети */
