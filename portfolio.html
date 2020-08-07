@@ -306,42 +306,60 @@
         <div class="logo-contacts">
           <div class="footer-logo">
             <a href="" class="logo-white link">
-              <span class="logo-accent link">Web</span> Studio</a>
+              <span class="logo-accent link">Web</span> Studio</a
+            >
           </div>
           <div class="contacts">
             <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
             <p class="mail">info@example.com</p>
             <p class="phone">+38 099 111 11 11</p>
-            </d>
           </div>
         </div>
-    
+
+        <!-- Социальные сети -->
+
         <div class="footer-social">
-          <p class="footer-text">Присоединяйтесь</p>
-          <ul class="footer-list list">
+          <p class="footer-social-text">Присоединяйтесь</p>
+          <ul class="footer-social-list list">
             <li class="item">
-              <a href="" aria-label="Ссылка на Instagram" class="footer-link">
+              <a
+                href=""
+                aria-label="Ссылка на Instagram"
+                class="footer-social-link"
+              >
                 <svg class="footer-link-logo">
                   <use href="./images/sprite.svg#instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a href="" aria-label="Ссылка на Twitter" class="footer-link">
+              <a
+                href=""
+                aria-label="Ссылка на Twitter"
+                class="footer-social-link"
+              >
                 <svg class="footer-link-logo">
                   <use href="./images/sprite.svg#twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a href="" aria-label="Ссылка на Facebook" class="footer-link">
+              <a
+                href=""
+                aria-label="Ссылка на Facebook"
+                class="footer-social-link"
+              >
                 <svg class="footer-link-logo">
                   <use href="./images/sprite.svg#facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="item">
-              <a href="" aria-label="Ссылка на LinkedIn" class="footer-link">
+              <a
+                href=""
+                aria-label="Ссылка на LinkedIn"
+                class="footer-social-link"
+              >
                 <svg class="footer-link-logo">
                   <use href="./images/sprite.svg#linkedin"></use>
                 </svg>
@@ -349,15 +367,30 @@
             </li>
           </ul>
         </div>
-    
+
         <div class="subscribe">
-          <p class="text">Подпишитесь на рассылку</p>
-          <button class="footer-btn">
-            Подписаться
-            <svg class="footer-btn-icon" width="24" height="24">
-              <use href="./images/sprite.svg#send"></use>
-            </svg>
-          </button>
+          <form class="footer-form">
+            <div class="form-field">
+              <div class="form-input">
+                <label for="mail">Подпишитесь на рассылку</label>
+                <input
+                  type="email"
+                  name="subscribe-mail"
+                  id="mail"
+                  placeholder="E-mail"
+                />
+              </div>
+
+              <div class="form-btn">
+                <button type="submit" class="footer-btn">
+                  Подписаться
+                  <svg class="footer-btn-icon" width="24" height="24">
+                    <use href="./images/sprite.svg#send"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
