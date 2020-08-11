@@ -389,7 +389,7 @@
 
       <div class="backdrop is-hidden">
         <div class="modal">
-          <form class="modal-form">
+          <form class="modal-form" autocomplete="off">
             <h2 class="form-title">
               Оставьте свои данные, мы вам перезвоним
             </h2>
@@ -399,34 +399,49 @@
                 type="text"
                 name="name-text"
                 class="form-input"
+                placeholder=" "
               />
               <svg class="input-icon">
-                <use href=./images/sprite.svg#icon-person></use>
+                <use href="./images/sprite.svg#icon-person"></use>
               </svg>
-              Имя</label
+              <span class="form-label">Имя</span>
+            </label>
+
+            <label class="form-group"
+              ><input
+                type="tel"
+                name="tel"
+                class="form-input"
+                placeholder=" "
+              /><svg class="input-icon">
+                <use href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+              <span class="form-label">Телефон</span></label
             >
 
             <label class="form-group"
-              ><input type="tel" name="tel" class="form-input" /><svg class="input-icon">
-                <use href=./images/sprite.svg#icon-phone></use>
-              </svg>Телефон</label
-            >
+              ><input
+                type="email"
+                name="mail"
+                class="form-input"
+                placeholder=" "
+              /><svg class="input-icon">
+                <use href="./images/sprite.svg#icon-email"></use>
+              </svg>
+              <span class="form-label">Почта</span>
+            </label>
 
-            <label class="form-group"
-              ><input type="email" name="mail" class="form-input" /><svg class="input-icon">
-                <use href=./images/sprite.svg#icon-email></use>
-              </svg>Почта</label
-            >
+            <label class="comment">
+              <textarea
+                name="comment"
+                rows="10"
+                class="textarea"
+                placeholder=" "
+              >
+              </textarea
+              ><span class="comment-label">Комментарий</span>
+            </label>
 
-            <label for="comment">Комментарий</label>
-            <textarea
-              name="comment"
-              id="comment"
-              rows="10"
-              placeholder="Введите текст"
-              class="comment"
-            >
-            </textarea>
             <div class="checkbox">
               <input type="checkbox" name="chekbox" id="check" />
               <label for="check" class="checkbox-text"
@@ -440,9 +455,8 @@
 
             <button class="cls-btn">
               <svg class="cls-btn-icon" width="18" height="18">
-                <use href=./images/sprite.svg#icon-close></use>
+                <use href="./images/sprite.svg#icon-close"></use>
               </svg>
-
             </button>
           </form>
         </div>
@@ -519,7 +533,7 @@
         <div class="subscribe">
           <form class="footer-form">
             <div class="form-field">
-              <div class="form-input">
+              <div class="footer-form-input">
                 <label for="mail">Подпишитесь на рассылку</label>
                 <input
                   type="email"
