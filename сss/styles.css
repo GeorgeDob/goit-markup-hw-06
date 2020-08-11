@@ -971,7 +971,7 @@ body {
 .checkbox:checked + .checkbox-icon {
   border-color: transparent;
   background-color: var(--accent-color);
-  background-image: url(/images/icon-check.svg);
+  background-image: url(../images/icon-check.svg);
   background-origin: border-box;
   background-size: contain;
 }
