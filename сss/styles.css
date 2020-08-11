@@ -758,15 +758,14 @@ body {
 .form-btn {
   margin-left: 12px;
 }
+.form-field {
+  display: flex;
+  align-items: flex-end;
+}
 
 .footer-form-input {
   display: flex;
   flex-direction: column;
-}
-
-.form-field {
-  display: flex;
-  align-items: flex-end;
 }
 
 .footer-btn {
@@ -975,10 +974,6 @@ body {
   background-image: url(/images/icon-check.svg);
   background-origin: border-box;
   background-size: contain;
-}
-
-.checkbox-link {
-  color: var(--accent-color);
 }
 
 .form-button {
